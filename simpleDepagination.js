@@ -2,8 +2,8 @@ var selTable = "TABLE[summary='LongList']";
 var selPaginationWrapper = "#scriptPagingWPQ1";
 var selPaginationNext = "A[title='Next']";
 
-var oWin = window.open(window.location.href, "_blank", false);
-var oWin2 = window.open("_blank", "_blank", false);
+var oWin = window.open(window.location.href, "win1");
+var oWin2 = window.open("_blank", "win2","",false);
 var bGotPage = false;
 var bWait = true;
 var intvl = null;
